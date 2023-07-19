@@ -1,0 +1,189 @@
+.userDescriptionBody {
+  .UserProfileBody {
+    margin-bottom: 10%;
+    background-color: #fff;
+    border-radius: 10px;
+    .UserImg {
+      .userBannerImg img {
+        width: 100%;
+        height: 60px;
+        border-radius: 10px 10px 0px 0px;
+      }
+      .userProfileImg {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 35%;
+          margin-top: -20%;
+          border-radius: 100%;
+        }
+      }
+    }
+    .UserPRofileText {
+      margin-top: 7%;
+      .userName {
+        text-align: center;
+        color: rgb(82, 81, 81);
+        max-width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+
+        h1 {
+          font-size: medium;
+        }
+      }
+      .userTitle {
+        text-align: center;
+        color: gray;
+        max-width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-bottom: 10%;
+        margin-top: 5%;
+        p {
+          font-size: small;
+        }
+      }
+    }
+    .Profile__Viewed__Impressions {
+      .Profile__Viewed__Impressions__Text {
+        margin-bottom: 10%;
+        margin-top: 10%;
+        button {
+          margin: 0% 0% 5%;
+          outline: 0;
+          border: 0px;
+          background-color: #fff;
+
+          span {
+            // height: 22px;
+            max-width: 100%;
+            // left: 2.5%;
+            // right: 2.5%;
+            width: 100%;
+
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+            border: none;
+
+            p {
+              font-size: small;
+            }
+          }
+          width: 100%;
+          display: flex;
+          cursor: pointer;
+        }
+        :hover {
+          background-color: rgb(212, 210, 210);
+        }
+      }
+    }
+    .premiumStatusBody {
+      button {
+        background-color: #fff;
+        outline: 0;
+        border: 0px;
+        cursor: pointer;
+
+        .PremiumStatus {
+          max-width: 95%;
+          margin-left: 2.5%;
+          margin-right: 2.5%;
+          margin-bottom: 10%;
+          margin-top: 10%;
+          text-align: start;
+
+          font-size: small;
+
+          span {
+            margin-top: 5%;
+            display: flex;
+
+            h4 {
+              margin-left: 2%;
+            }
+          }
+        }
+      }
+      :hover {
+        background-color: rgb(212, 210, 210);
+      }
+    }
+    .profile__Item__Body {
+      max-width: 100%;
+      border-radius: 0px 0px 10px 10px;
+
+      button {
+        min-width: 100%;
+        border-radius: 0px 0px 10px 10px;
+        background-color: #fff;
+        outline: 0;
+        border: 0px;
+        cursor: pointer;
+        .Profile__Items {
+          max-width: 95%;
+          margin-left: 2.5%;
+          margin-right: 2.5%;
+          text-align: start;
+
+          span {
+            margin-top: 5%;
+            display: flex;
+            margin-bottom: 5%;
+            align-items: center;
+          }
+        }
+      }
+      :hover {
+        background-color: rgb(212, 210, 210);
+      }
+    }
+  }
+
+  // -------------------------
+
+  .UserRecentBody {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 10%;
+
+    .StatusText {
+      width: 100%;
+      .recent {
+        // padding: 10% 5%;
+        max-width: 100%;
+        span {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 5%;
+        }
+        button {
+          max-width: 100%;
+          min-width: 100%;
+          height: max-content;
+          align-items: center;
+
+          span {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            p {
+              text-overflow: ellipsis;
+              overflow: hidden;
+              white-space: nowrap;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.recent p {
+}

@@ -1,25 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import LinkedinNews from "./components/typescript/LinkedinNews";
+import Navbar from "./components/typescript/Navbar";
+import { PostAndMainPage } from "./components/typescript/PostAndMainPage";
+import UserDescription from "./components/typescript/UserDescription";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <div className="LandingPagePartitionTest">
+        <UserDescription />
+        <PostAndMainPage />
+        <LinkedinNews />
+      </div>
+    </>
   );
 }
 
